@@ -1,0 +1,56 @@
+/* QuizApp.css */
+
+.quiz-app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-size: cover;
+}
+.Loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.question-card {
+  padding: 20px;
+  text-align: center;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #ece9e6);
+  border-radius: 15px;
+}
+
+.choices-list input[type='radio'] {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.choices-list li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.choices-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.choices-list li.selected {
+  background-color: #03a9f4;
+  color: #ffffff;
+}
+
+.result-card {
+  padding: 20px;
+  text-align: center;
+  background-color: #a5d6a7;
+  border-radius: 15px;
+  margin-top: 25px;
+}
